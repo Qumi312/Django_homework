@@ -1,0 +1,34 @@
+Watching for file changes with StatReloader
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+"GET /hw1/ HTTP/1.1" 200 11
+C:\Users\qumi\python\Django_homework\django_homework\homework_app01\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /hw1/ HTTP/1.1" 200 43
+C:\Users\qumi\python\Django_homework\django_homework\homework_app01\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /hw1/about
+"GET /hw1/about HTTP/1.1" 404 2452
+Not Found: /hw1/about
+"GET /hw1/about HTTP/1.1" 404 2452
+C:\Users\qumi\python\Django_homework\django_homework\homework_app01\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hw1/about HTTP/1.1" 301 0
+"GET /hw1/about/ HTTP/1.1" 200 14
+"GET /hw1/about/ HTTP/1.1" 200 14
+"GET /hw1/ HTTP/1.1" 200 43
+C:\Users\qumi\python\Django_homework\django_homework\homework_app01\urls.py changed, reloading.
+Watching for file changes with StatReloader
