@@ -1,0 +1,67 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2223
+C:\Users\qumi\python\Django_homework\django_homework\django_homework\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\django_homework\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+Not Found: /hw2
+"GET /hw2 HTTP/1.1" 404 2303
+"GET /hw2/add_client HTTP/1.1" 301 0
+Internal Server Error: /hw2/add_client/
+Traceback (most recent call last):
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py", line 8, in add_client
+    name=request.POST.get('name'),
+         ^^^^^^^^^^^^
+AttributeError: module 'django.http.request' has no attribute 'POST'
+"GET /hw2/add_client/ HTTP/1.1" 500 67944
+Watching for file changes with StatReloader
+Internal Server Error: /hw2/add_client/
+Traceback (most recent call last):
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py", line 8, in add_client
+    name=request.POST.get('name'),
+         ^^^^^^^^^^^^
+AttributeError: module 'django.http.request' has no attribute 'POST'
+"GET /hw2/add_client/ HTTP/1.1" 500 68081
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /hw2/add_client/
+Traceback (most recent call last):
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py", line 8, in add_client
+    name=request.form.get('name'),
+         ^^^^^^^^^^^^
+AttributeError: module 'django.http.request' has no attribute 'form'
+"GET /hw2/add_client/ HTTP/1.1" 500 68081
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\urls.py changed, reloading.
+Watching for file changes with StatReloader
