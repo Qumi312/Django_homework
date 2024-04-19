@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+товары за 7 дней
+{% endblock %}
+{% block content %}
+     {% for product in products %}
+    <p><b>{{ product.name }}</b>
+        {{ product.description }} <br>
+        {{ product.prict }} <br>
+        {{ product.date_published }}
+    </p>
+    {% endfor %}
+{% endblock %}

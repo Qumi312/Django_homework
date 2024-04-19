@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+New product
+{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <select name="client">
+        {% for n in clients %}
+            <option name="client" value="{{ n.id }}">{{ n.name }}</option>
+        {% endfor %}
+        </select>
+        <select name="product">
+            {% for product_name in products %}
+                <option name="{{ product_name.id }}">{{ product_name.name }}</option>
+            {% endfor %}
+        </select>
+        <input type="text" name = 'price'><br>
+        <input type="submit">
+    </form>
+
+{% endblock %}

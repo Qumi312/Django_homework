@@ -3,12 +3,14 @@
 New client
 {% endblock %}
 {% block content %}
+
     <form method="post" enctype="multipart/form-data">
-        <input type="text" name = 'name'><br>
-        <input type="text" name = 'email'><br>
-        <input type="text" name = 'number'><br>
-        <input type="text" name = 'address'><br>
-        <input type="text" name = 'submit'>
+        {% csrf_token %}
+        <input type="text" name = 'client_name' placeholder="Имя"><br>
+        <input type="text" name = 'client_email' placeholder="Почта"><br>
+        <input type="text" name = 'client_phone' placeholder="Телефон"><br>
+        <input type="text" name = 'client_address' placeholder="Адресс"><br>
+        <input type="submit">
     </form>
 
 {% endblock %}

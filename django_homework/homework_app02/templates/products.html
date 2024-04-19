@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{%block title %}
+продукты
+{% endblock %}
+{% block content %}
+    <form method = 'post'>
+        {% csrf_token %}
+        <select name="date_published" id="">
+            <option value="7days">7days</option>
+            <option value="14days">14days</option>
+            <option value="30days">30days</option>
+            <option value="1year">1year</option>
+            <input type="submit">
+        </select>
+    </form>
+
+{% endblock %}
