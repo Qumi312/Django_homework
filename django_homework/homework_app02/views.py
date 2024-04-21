@@ -1,11 +1,13 @@
 from datetime import datetime, date, time, timedelta
 
+from django.core.files.storage import FileSystemStorage
 from django.db.models import Count, Q
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.utils import timezone
 from django.views.decorators.csrf import csrf_protect
 
+from .forms import ProductForm
 from .models import *
 
 
@@ -93,3 +95,22 @@ def products(request):
         ).prefetch_related('date_published').values()
         return render(request, 'products_for_date.html', {'products': articles})
     return render(request, 'products.html')
+
+def add_image(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            quantity = form.cleaned_data['quantity']
+            fs.save(image.name, image)
+            product = Product(name = name, description = description, price = price, quantity =quantity)
+            product.save()
+            return render(request, 'add_image.html', {'form' : form})
+    else:
+        form = ProductForm()
+        return render(request, 'add_image.html', {'form': form})
+
