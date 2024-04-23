@@ -5353,3 +5353,68 @@ Watching for file changes with StatReloader
 "POST /hw2/add_image HTTP/1.1" 200 1353
 C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7612
+"GET /admin/homework_app02/client/ HTTP/1.1" 200 11530
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 7612
+"GET /admin/homework_app02/order/ HTTP/1.1" 200 8649
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 7612
+"GET /admin/homework_app02/product/ HTTP/1.1" 200 10896
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 7612
+"GET /admin/homework_app02/order/ HTTP/1.1" 200 8649
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/order/add/ HTTP/1.1" 200 12969
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6972
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/homework_app02/order/add/ HTTP/1.1" 302 0
+"GET /admin/homework_app02/order/ HTTP/1.1" 200 10401
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/order/1/change/ HTTP/1.1" 200 13248
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/order/ HTTP/1.1" 200 10179
+"GET /admin/homework_app02/product/ HTTP/1.1" 200 10896
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/product/6/change/ HTTP/1.1" 200 12364
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/product/ HTTP/1.1" 200 10896
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app02/product/ HTTP/1.1" 200 12348
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/product/4/change/ HTTP/1.1" 200 12214
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/product/ HTTP/1.1" 200 12348
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app02/client/ HTTP/1.1" 200 11530
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 54557)
+"GET /admin/homework_app02/client/ HTTP/1.1" 200 13153
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app02/client/ HTTP/1.1" 200 13153
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app02/client/ HTTP/1.1" 200 13153
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
