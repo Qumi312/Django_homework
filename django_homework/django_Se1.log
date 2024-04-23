@@ -5418,3 +5418,77 @@ C:\Users\qumi\python\Django_homework\django_homework\homework_app02\admin.py cha
 Watching for file changes with StatReloader
 "GET /admin/homework_app02/client/ HTTP/1.1" 200 13153
 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 12183
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+Not Found: /__debug__
+"GET /__debug__ HTTP/1.1" 404 12237
+Not Found: /__debug__/
+"GET /__debug__/ HTTP/1.1" 404 13478
+C:\Users\qumi\python\Django_homework\django_homework\django_homework\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 43
+"GET / HTTP/1.1" 200 43
+Not Found: /__debug__
+"GET /__debug__ HTTP/1.1" 404 12461
+"GET / HTTP/1.1" 200 43
+"GET / HTTP/1.1" 200 43
+Not Found: /add_product
+"GET /add_product HTTP/1.1" 404 12469
+"GET /__debug__/render_panel/?store_id=43a784ac938949b4b3b76fcbb83c0525&panel_id=HistoryPanel HTTP/1.1" 200 10695
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/history_sidebar/?store_id=43a784ac938949b4b3b76fcbb83c0525&exclude_history=True HTTP/1.1" 200 10774
+"GET /__debug__/history_refresh/?store_id=43a784ac938949b4b3b76fcbb83c0525&exclude_history=True HTTP/1.1" 200 10048
+"GET /__debug__/render_panel/?store_id=43a784ac938949b4b3b76fcbb83c0525&panel_id=SQLPanel HTTP/1.1" 200 428
+"GET /__debug__/render_panel/?store_id=43a784ac938949b4b3b76fcbb83c0525&panel_id=RequestPanel HTTP/1.1" 200 2350
+"GET /hw2/add_order/ HTTP/1.1" 200 11010
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Internal Server Error: /hw2/add_order/
+Traceback (most recent call last):
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qumi\python\Django_homework\django_homework\homework_app02\views.py", line 58, in add_order
+    product = int(request.POST.get('product'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Зерно'
+"POST /hw2/add_order/ HTTP/1.1" 500 91841
+"GET /hw2/add_product/ HTTP/1.1" 200 10613
+"POST /hw2/add_product/ HTTP/1.1" 200 2
+"GET /hw2/products/ HTTP/1.1" 200 10515
+"POST /hw2/products/ HTTP/1.1" 200 10584
+"GET /__debug__/render_panel/?store_id=3c72713336084b3fb8304880403e95c9&panel_id=SQLPanel HTTP/1.1" 200 21746
+"GET /hw2/products/ HTTP/1.1" 200 10515
+"POST /hw2/products/ HTTP/1.1" 200 10583
+"GET /__debug__/render_panel/?store_id=a83256775f644a9b9765ce32bc53cd37&panel_id=SQLPanel HTTP/1.1" 200 21745
+"POST /__debug__/sql_select/ HTTP/1.1" 200 5394
+"GET /hw2/products/ HTTP/1.1" 200 10515
+"GET /__debug__/render_panel/?store_id=3eab89d9218f4572b7f2ffd2cbb13341&panel_id=SQLPanel HTTP/1.1" 200 428
+"GET /__debug__/render_panel/?store_id=a83256775f644a9b9765ce32bc53cd37&panel_id=SQLPanel HTTP/1.1" 200 21745
+"POST /__debug__/sql_explain/ HTTP/1.1" 200 2897
+"GET /__debug__/render_panel/?store_id=a83256775f644a9b9765ce32bc53cd37&panel_id=RequestPanel HTTP/1.1" 200 2930
+"GET /__debug__/render_panel/?store_id=a83256775f644a9b9765ce32bc53cd37&panel_id=TemplatesPanel HTTP/1.1" 200 6747
+"POST /hw2/products/ HTTP/1.1" 200 11010
+"GET /__debug__/render_panel/?store_id=e4e5e6cf13534e4bbb1b5f0dba6b8267&panel_id=SQLPanel HTTP/1.1" 200 22256
+"GET /__debug__/render_panel/?store_id=e4e5e6cf13534e4bbb1b5f0dba6b8267&panel_id=RequestPanel HTTP/1.1" 200 3069
+"GET /__debug__/render_panel/?store_id=e4e5e6cf13534e4bbb1b5f0dba6b8267&panel_id=ProfilingPanel HTTP/1.1" 200 34689
+"GET /__debug__/render_panel/?store_id=e4e5e6cf13534e4bbb1b5f0dba6b8267&panel_id=SignalsPanel HTTP/1.1" 200 2276
+"GET /__debug__/render_panel/?store_id=e4e5e6cf13534e4bbb1b5f0dba6b8267&panel_id=VersionsPanel HTTP/1.1" 200 760

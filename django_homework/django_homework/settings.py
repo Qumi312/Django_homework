@@ -39,9 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'homework_app01',
     'homework_app02',
+    'debug_toolbar',
+]
+INTERNAL_IPS = [
+    '127.0.0.1',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -49,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'django_homework.urls'
@@ -101,11 +107,21 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_COOCKIE_SECURE = True
+SESSION_COCKIE_SECURE = True
+
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'username.pythonanywhere.com',
+]
+
+STATIC_ROOT = BASE_DIR / 'static'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE ='ru'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'UTC'
 
